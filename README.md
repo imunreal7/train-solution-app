@@ -27,3 +27,5 @@ Now you can use an HTTP client like Postman or cURL to interact with the API.
 Send a POST request to "http://localhost:3000/reserve" with the desired number of seats in the request body,
 and you will receive the booked seat numbers in the response.
 To check the availability of all seats, send a GET request to "http://localhost:3000/seats".
+
+When you visit http://localhost:3000 in your web browser, you will see a simple interface with a form to reserve seats and a grid representing the seat availability. You can enter the number of seats you want to reserve and click the "Reserve" button. The grid will update to reflect the updated seat availability, and you will receive an alert message indicating the reserved seat numbers.
